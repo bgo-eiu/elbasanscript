@@ -1,6 +1,6 @@
 ﻿var flipped = false;
 
-const toElbasan = () => {
+const toVithkuqi = () => {
   flipped = false;
   if (!document.getElementById('inp') || !document.getElementById('out')) return;
   document.getElementById('inp').placeholder = 'Text in Latin';
@@ -12,8 +12,8 @@ const toElbasan = () => {
 const toLatin = () => {
   flipped = true;
   if (!document.getElementById('inp') || !document.getElementById('out')) return;
-  document.getElementById('inp').placeholder = 'Text in Elbasan (𐔇𐔐𐔁𐔀𐔛𐔀𐔓)';
-  document.getElementById('toElbasan').checked = false;
+  document.getElementById('inp').placeholder = 'Text in Vithkuqi (𐕲𐖻𐖶𐖨𐖷𐖰𐖥)';
+  document.getElementById('toVithkuqi').checked = false;
   document.getElementById('inp').value = '';
   document.getElementById('out').value = '';
 };
