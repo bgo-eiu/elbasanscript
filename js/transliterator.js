@@ -28,16 +28,16 @@ const transliterate = (word) => {
   word = word.toLowerCase()
   let charCodes = {
     //specific sequences (see https://www.unicode.org/L2/L2020/20187r2-n5138r2-vithkuqi.pdf)
-    'mbë dhe': '\u{105AB}\u{10598}\u{1059F} \u{1059D}\u{1059E}',
+    ' mbë dhe': ' \u{105AB}\u{10598}\u{1059F} \u{1059D}\u{1059E}',
+    bëntorit: '\u{10598}\u{1059F}\u{105AC}\u{105B5}\u{105AE}\u{105B1}\u{105B5}\u{105A5}\u{105B5}',
+    bredhasi: '\u{10598}\u{105B1}\u{1059E}\u{1059D}\u{10597}\u{105B3}\u{105A5}',
+    bredhi: '\u{10598}\u{105B1}\u{1059E}\u{1059D}\u{105A5}',
     bëftë: '\u{10598}\u{1059F}\u{105A0}\u{105B5}\u{1059F}',
+    bukën: '\u{10598}\u{105B7}\u{105A8}\u{1059F}\u{105AC}',
+    bukur: '\u{10598}\u{105B7}\u{105A8}\u{105B7}\u{105B1}',
     baht: '\u{10598}\u{10597}\u{105A4}\u{105B5}',
-    bukur: '',
-    bëntorit: '',
-    bredhi: '',
-    bredhasi: '',
-    bukën: '',
-    harxhi: '',
-    ham: '',
+    harxhi: '\u{105A4}\u{10597}\u{105B1}\u{1059B}\u{105A5}',
+    ham: '\u{105A4}\u{10597}\u{105AB}',
     //two letter keys
     dh: '\u{10506}',
     gi: '',
