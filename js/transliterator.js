@@ -27,7 +27,7 @@ const convert = () => {
 const transliterate = (word) => {
   word = word.toLowerCase()
   let charCodes = {
-    //specific sequences
+    //specific sequences (see https://www.unicode.org/L2/L2020/20187r2-n5138r2-vithkuqi.pdf)
     'mbë dhe': '\u{105AB}\u{10598}\u{1059F} \u{1059D}\u{1059E}',
     bëftë: '\u{10598}\u{1059F}\u{105A0}\u{105B5}\u{1059F}',
     baht: '\u{10598}\u{10597}\u{105A4}\u{105B5}',
